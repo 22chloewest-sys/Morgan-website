@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morgan State University | Health Sciences</title>
+  <style>
+    :root {
+      --msu-blue: #003a70;
+      --msu-orange: #f47b20;
+      --light-bg: #f7f9fc;
+      --text-color: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--msu-blue);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--msu-orange);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--msu-blue);
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--msu-orange);
+      color: white;
+    }
+
+    section {
+      padding: 2.5rem 1.5rem;
+      max-width: 1000px;
+      margin: 1.5rem auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: var(--msu-blue);
+      border-left: 6px solid var(--msu-orange);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--msu-blue);
+      color: white;
+      font-size: 0.95rem;
+    }
+
+    .top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--msu-orange);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .top-btn:hover {
+      background-color: #ff8f3a;
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <h1>Health Sciences at Morgan State University</h1>
+    <p>Evolution, Impact, and Vision</p>
+  </header>
+
+  <nav>
+    <a href="#journey">Journey</a>
+    <a href="#evolution">Evolution</a>
+    <a href="#infrastructure">Infrastructure</a>
+    <a href="#programs">Programs</a>
+    <a href="#impact">Impact</a>
+    <a href="#transformation">Transformation</a>
+    <a href="#conclusion">Conclusion</a>
+  </nav>
+
+  <section id="journey">
+    <h2>Morgan State: A Historic Journey</h2>
+    <ul>
+      <li><strong>Origins and Early Mission:</strong> Established in 1867 as the Centenary Biblical Institute to train young men for ministry.</li>
+      <li><strong>Renaming and Honor:</strong> Renamed Morgan College in 1890 to honor Reverend Lyttleton Morgan for his contributions.</li>
+      <li><strong>Modern Growth and Diversity:</strong> Achieved university status in 1975, expanding programs and embracing diversity.</li>
+    </ul>
+  </section>
+
+  <section id="evolution">
+    <h2>Evolution of Health Sciences</h2>
+    <ul>
+      <li><strong>Early Program Development:</strong> In the early 2010s, MSU began building its Health Sciences programs with strong faculty and planning.</li>
+      <li><strong>Launch of Initial Programs:</strong> By 2015, launched Public Health and Allied Health programs to meet community needs.</li>
+      <li><strong>Expansion and Leadership:</strong> Recent years brought new degrees, partnerships, and facilities that strengthened MSU’s leadership in health education.</li>
+    </ul>
+  </section>
+
+  <section id="infrastructure">
+    <h2>Health Sciences Infrastructure</h2>
+    <ul>
+      <li><strong>Early 2000s Modernization:</strong> Major investments in new laboratories and research facilities.</li>
+      <li><strong>2017 Milestone:</strong> Opening of the Martin D. Jenkins Behavioral and Social Sciences Center.</li>
+      <li><strong>Recent Enhancements:</strong> Introduction of simulation labs and interdisciplinary research spaces.</li>
+    </ul>
+  </section>
+
+  <section id="programs">
+    <h2>Health Sciences Programs Today</h2>
+    <ul>
+      <li><strong>Diverse Programs:</strong> Public Health, Nutritional Sciences, Medical Laboratory Science, and more.</li>
+      <li><strong>Hands-On Learning:</strong> Emphasis on research, practical experience, and community engagement.</li>
+      <li><strong>Career Preparation:</strong> Graduates enter healthcare, policy, and advanced studies ready to impact communities.</li>
+    </ul>
+  </section>
+
+  <section id="impact">
+    <h2>Health Science Impact and Vision</h2>
+    <ul>
+      <li><strong>Addressing Health Disparities:</strong> Focused on reducing disparities through outreach and research.</li>
+      <li><strong>Student Engagement:</strong> Real-world experiences prepare students for meaningful healthcare careers.</li>
+      <li><strong>Leadership in Public Health:</strong> Committed to promoting wellness and equity globally.</li>
+    </ul>
+  </section>
+
+  <section id="transformation">
+    <h2>Transformation and Future</h2>
+    <ul>
+      <li><strong>Expansion:</strong> Rapid growth over the last 30 years in health sciences and research.</li>
+      <li><strong>Infrastructure:</strong> State-of-the-art resources now support advanced medical education.</li>
+      <li><strong>Leadership:</strong> Poised to become a top public medical school in Maryland.</li>
+    </ul>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <ul>
+      <li>Morgan has grown from a ministry institute to a leading HBCU university.</li>
+      <li>Health sciences have expanded significantly over the last three decades.</li>
+      <li>Strong investments in programs and infrastructure continue.</li>
+      <li>The university is positioned as a future leader in public medical education.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Morgan State University | Health Sciences Division</p>
+  </footer>
+
+  <button class="top-btn" id="topBtn">&#8679;</button>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    });
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morgan State University | Health Sciences</title>
+  <style>
+    :root {
+      --msu-blue: #003a70;
+      --msu-orange: #f47b20;
+      --light-bg: #f7f9fc;
+      --text-color: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--msu-blue);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--msu-orange);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--msu-blue);
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--msu-orange);
+      color: white;
+    }
+
+    section {
+      padding: 2.5rem 1.5rem;
+      max-width: 1000px;
+      margin: 1.5rem auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: var(--msu-blue);
+      border-left: 6px solid var(--msu-orange);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--msu-blue);
+      color: white;
+      font-size: 0.95rem;
+    }
+
+    .top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--msu-orange);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .top-btn:hover {
+      background-color: #ff8f3a;
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <h1>Health Sciences at Morgan State University</h1>
+    <p>Evolution, Impact, and Vision</p>
+  </header>
+
+  <nav>
+    <a href="#journey">Journey</a>
+    <a href="#evolution">Evolution</a>
+    <a href="#infrastructure">Infrastructure</a>
+    <a href="#programs">Programs</a>
+    <a href="#impact">Impact</a>
+    <a href="#transformation">Transformation</a>
+    <a href="#conclusion">Conclusion</a>
+  </nav>
+
+  <section id="journey">
+    <h2>Morgan State: A Historic Journey</h2>
+    <ul>
+      <li><strong>Origins and Early Mission:</strong> Established in 1867 as the Centenary Biblical Institute to train young men for ministry.</li>
+      <li><strong>Renaming and Honor:</strong> Renamed Morgan College in 1890 to honor Reverend Lyttleton Morgan for his contributions.</li>
+      <li><strong>Modern Growth and Diversity:</strong> Achieved university status in 1975, expanding programs and embracing diversity.</li>
+    </ul>
+  </section>
+
+  <section id="evolution">
+    <h2>Evolution of Health Sciences</h2>
+    <ul>
+      <li><strong>Early Program Development:</strong> In the early 2010s, MSU began building its Health Sciences programs with strong faculty and planning.</li>
+      <li><strong>Launch of Initial Programs:</strong> By 2015, launched Public Health and Allied Health programs to meet community needs.</li>
+      <li><strong>Expansion and Leadership:</strong> Recent years brought new degrees, partnerships, and facilities that strengthened MSU’s leadership in health education.</li>
+    </ul>
+  </section>
+
+  <section id="infrastructure">
+    <h2>Health Sciences Infrastructure</h2>
+    <ul>
+      <li><strong>Early 2000s Modernization:</strong> Major investments in new laboratories and research facilities.</li>
+      <li><strong>2017 Milestone:</strong> Opening of the Martin D. Jenkins Behavioral and Social Sciences Center.</li>
+      <li><strong>Recent Enhancements:</strong> Introduction of simulation labs and interdisciplinary research spaces.</li>
+    </ul>
+  </section>
+
+  <section id="programs">
+    <h2>Health Sciences Programs Today</h2>
+    <ul>
+      <li><strong>Diverse Programs:</strong> Public Health, Nutritional Sciences, Medical Laboratory Science, and more.</li>
+      <li><strong>Hands-On Learning:</strong> Emphasis on research, practical experience, and community engagement.</li>
+      <li><strong>Career Preparation:</strong> Graduates enter healthcare, policy, and advanced studies ready to impact communities.</li>
+    </ul>
+  </section>
+
+  <section id="impact">
+    <h2>Health Science Impact and Vision</h2>
+    <ul>
+      <li><strong>Addressing Health Disparities:</strong> Focused on reducing disparities through outreach and research.</li>
+      <li><strong>Student Engagement:</strong> Real-world experiences prepare students for meaningful healthcare careers.</li>
+      <li><strong>Leadership in Public Health:</strong> Committed to promoting wellness and equity globally.</li>
+    </ul>
+  </section>
+
+  <section id="transformation">
+    <h2>Transformation and Future</h2>
+    <ul>
+      <li><strong>Expansion:</strong> Rapid growth over the last 30 years in health sciences and research.</li>
+      <li><strong>Infrastructure:</strong> State-of-the-art resources now support advanced medical education.</li>
+      <li><strong>Leadership:</strong> Poised to become a top public medical school in Maryland.</li>
+    </ul>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <ul>
+      <li>Morgan has grown from a ministry institute to a leading HBCU university.</li>
+      <li>Health sciences have expanded significantly over the last three decades.</li>
+      <li>Strong investments in programs and infrastructure continue.</li>
+      <li>The university is positioned as a future leader in public medical education.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Morgan State University | Health Sciences Division</p>
+  </footer>
+
+  <button class="top-btn" id="topBtn">&#8679;</button>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    });
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morgan State University | Health Sciences</title>
+  <style>
+    :root {
+      --msu-blue: #003a70;
+      --msu-orange: #f47b20;
+      --light-bg: #f7f9fc;
+      --text-color: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: var(--light-bg);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--msu-blue);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    nav {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-bottom: 2px solid var(--msu-orange);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: var(--msu-blue);
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      font-weight: bold;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: var(--msu-orange);
+      color: white;
+    }
+
+    section {
+      padding: 2.5rem 1.5rem;
+      max-width: 1000px;
+      margin: 1.5rem auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: var(--msu-blue);
+      border-left: 6px solid var(--msu-orange);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--msu-blue);
+      color: white;
+      font-size: 0.95rem;
+    }
+
+    .top-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: var(--msu-orange);
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .top-btn:hover {
+      background-color: #ff8f3a;
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <h1>Health Sciences at Morgan State University</h1>
+    <p>Evolution, Impact, and Vision</p>
+  </header>
+
+  <nav>
+    <a href="#journey">Journey</a>
+    <a href="#evolution">Evolution</a>
+    <a href="#infrastructure">Infrastructure</a>
+    <a href="#programs">Programs</a>
+    <a href="#impact">Impact</a>
+    <a href="#transformation">Transformation</a>
+    <a href="#conclusion">Conclusion</a>
+  </nav>
+
+  <section id="journey">
+    <h2>Morgan State: A Historic Journey</h2>
+    <ul>
+      <li><strong>Origins and Early Mission:</strong> Established in 1867 as the Centenary Biblical Institute to train young men for ministry.</li>
+      <li><strong>Renaming and Honor:</strong> Renamed Morgan College in 1890 to honor Reverend Lyttleton Morgan for his contributions.</li>
+      <li><strong>Modern Growth and Diversity:</strong> Achieved university status in 1975, expanding programs and embracing diversity.</li>
+    </ul>
+  </section>
+
+  <section id="evolution">
+    <h2>Evolution of Health Sciences</h2>
+    <ul>
+      <li><strong>Early Program Development:</strong> In the early 2010s, MSU began building its Health Sciences programs with strong faculty and planning.</li>
+      <li><strong>Launch of Initial Programs:</strong> By 2015, launched Public Health and Allied Health programs to meet community needs.</li>
+      <li><strong>Expansion and Leadership:</strong> Recent years brought new degrees, partnerships, and facilities that strengthened MSU’s leadership in health education.</li>
+    </ul>
+  </section>
+
+  <section id="infrastructure">
+    <h2>Health Sciences Infrastructure</h2>
+    <ul>
+      <li><strong>Early 2000s Modernization:</strong> Major investments in new laboratories and research facilities.</li>
+      <li><strong>2017 Milestone:</strong> Opening of the Martin D. Jenkins Behavioral and Social Sciences Center.</li>
+      <li><strong>Recent Enhancements:</strong> Introduction of simulation labs and interdisciplinary research spaces.</li>
+    </ul>
+  </section>
+
+  <section id="programs">
+    <h2>Health Sciences Programs Today</h2>
+    <ul>
+      <li><strong>Diverse Programs:</strong> Public Health, Nutritional Sciences, Medical Laboratory Science, and more.</li>
+      <li><strong>Hands-On Learning:</strong> Emphasis on research, practical experience, and community engagement.</li>
+      <li><strong>Career Preparation:</strong> Graduates enter healthcare, policy, and advanced studies ready to impact communities.</li>
+    </ul>
+  </section>
+
+  <section id="impact">
+    <h2>Health Science Impact and Vision</h2>
+    <ul>
+      <li><strong>Addressing Health Disparities:</strong> Focused on reducing disparities through outreach and research.</li>
+      <li><strong>Student Engagement:</strong> Real-world experiences prepare students for meaningful healthcare careers.</li>
+      <li><strong>Leadership in Public Health:</strong> Committed to promoting wellness and equity globally.</li>
+    </ul>
+  </section>
+
+  <section id="transformation">
+    <h2>Transformation and Future</h2>
+    <ul>
+      <li><strong>Expansion:</strong> Rapid growth over the last 30 years in health sciences and research.</li>
+      <li><strong>Infrastructure:</strong> State-of-the-art resources now support advanced medical education.</li>
+      <li><strong>Leadership:</strong> Poised to become a top public medical school in Maryland.</li>
+    </ul>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <ul>
+      <li>Morgan has grown from a ministry institute to a leading HBCU university.</li>
+      <li>Health sciences have expanded significantly over the last three decades.</li>
+      <li>Strong investments in programs and infrastructure continue.</li>
+      <li>The university is positioned as a future leader in public medical education.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Morgan State University | Health Sciences Division</p>
+  </footer>
+
+  <button class="top-btn" id="topBtn">&#8679;</button>
+
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        topBtn.style.display = "block";
+      } else {
+        topBtn.style.display = "none";
+      }
+    });
+    topBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
